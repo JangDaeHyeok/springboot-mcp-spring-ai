@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    # h2
+    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    h2:
+      console:
+        enabled: true
+        path: /h2-console
+  # jpa
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true # sql show
+        format_sql: true # pretty show
+    hibernate:
+      ddl-auto: update # db init (create, create-drop, update, validate, none)
+  ai:
+    openai:
+      api-key: ${OPENAI_KEY}
+
+app:
+  document:
+    temp-dir: ${java.io.tmpdir}/
