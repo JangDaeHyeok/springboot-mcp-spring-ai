@@ -9,4 +9,4 @@ Spring Boot Project for MCP With Spring AI
 - spring-ai-mcp-server
 - springAiVersion : 1.0.0-M6
 
-블로그 : [https://jangjjolkit.tistory.com/72](https://jangjjolkit.tistory.com/86)
+블로그 : [https://jangjjolkit.tistory.com/86](https://jangjjolkit.tistory.com/86)
